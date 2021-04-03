@@ -5,7 +5,7 @@ export default function Home() {
   
   useEffect(()=>{
     if('contacts' in  navigator ){
-      const supportedProperties = await navigator.contacts.getProperties();
+      const supportedProperties = navigator.contacts.getProperties();
       if (supportedProperties.includes('name')) {
         // run code for name support
          alert(JSON.stringify(supportedProperties))
