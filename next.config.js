@@ -1,5 +1,5 @@
 const withPWA = require('next-pwa')
 module.exports = withPWA({
-  exportTrailingSlash: true,
+  //exportTrailingSlash: true,
     // other next config
   })
