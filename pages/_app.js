@@ -8,7 +8,9 @@ function MyApp({ Component, pageProps }) {
     if('contacts' in  navigator ){
       alert("yes")
     }
-    else("no")
+    else{
+      alert("no")
+    }
     if("serviceWorker" in navigator) {
       window.addEventListener("load", function () {
        navigator.serviceWorker.register("/sw.js").then(
