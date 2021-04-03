@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 export default function Home() {
+  
   return (
     <>
       <Head>
@@ -25,7 +26,7 @@ export default function Home() {
   <div className="container  ">
     <div  className="flex lg:w-2/3 w-full sm:flex-row items-center flex-col mx-auto px-8 sm:px-0 items-end sm:space-x-4 sm:space-y-0 space-y-4">
      <div classNameName="mt-10">
-       <h1>Whatsapp 2.0</h1>
+       <h1 >Whatsapp 2.0</h1>
      </div>
       <div  style={{marginTop:"30vh"}} className="relative sm:mb-0 flex-grow w-full">
         <input type="number" autoFocus="true" id="email" placeholder={"phone number"} name="email" className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 focus:bg-transparent text-base outline-none text-gray-100 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
