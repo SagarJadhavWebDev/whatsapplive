@@ -47,7 +47,7 @@ export default function Home() {
       <link href='/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
       <link rel='apple-touch-icon' href='/apple-icon.png'></link>
       <meta name='theme-color' content='#317EFB' />
-        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"></link>
+        
         <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover' />
       </Head>
       <section className="text-gray-400 bg-gray-900 body-font" style={{height:"100vh", overflowY:"hidden"}}>
